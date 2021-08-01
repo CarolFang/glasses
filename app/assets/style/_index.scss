@@ -1,0 +1,62 @@
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px 0 80px;
+  }
+  h2 {
+    font-size: 48px;
+    color: #650300;
+    line-height: 1.5em;
+    margin-bottom: 40px;
+  }
+//   banner_section
+.banner_section {
+    background: url(https://hexschool.github.io/webLayoutTraining1st/week3/banner.png)
+      no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 840px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #650300;
+    text-align: right;
+    .container {
+        text-align: right;
+      }
+    .caption {
+        font-size: 36px;
+    }
+    .title {
+        font-size: 64px;
+        font-weight: bold;
+    }
+}
+// service_section
+.service_section {
+    background-color: #aa06010d;
+    .intro_list {
+        display: flex;
+        justify-content: space-between;
+        li {
+            width: 255px;
+            img {
+                width: 100px;
+                height: 100px;
+                margin-bottom: 24px;
+            }
+        }
+    }
+    h4 {
+        font-size: 24px;
+        margin-bottom: 8px;
+        color: #650300;
+    }
+    p {
+        font-size: 16px;
+    }
+}
+ 
+  
